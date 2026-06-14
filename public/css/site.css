@@ -1,0 +1,14 @@
+.loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(255,255,255,0.9);
+    z-index: 1050;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    transition: transform 0.25s ease;
+}
